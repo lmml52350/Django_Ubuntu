@@ -13,3 +13,17 @@ sudo apt-get install -y make build-essential \
 libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
 wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev git python-pip sqlite3
+
+echo 'eval "$(pyenv init --path)"' >>~/.profile
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+
+pyenv --version
+
+
+파일 넣는 간편한 방법
+
+lm709600949@DESKTOP-L1A2KHD:~$ cd codeit-django
+lm709600949@DESKTOP-L1A2KHD:~/codeit-django$ explorer.exe .
+lm709600949@DESKTOP-L1A2KHD:~/codeit-django$ ls
+111.py  test.txt.txt
